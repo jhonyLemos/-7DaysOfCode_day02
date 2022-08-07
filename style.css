@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.app{
+    background: linear-gradient(purple, white);
+    text-align: center;
+    padding: 25px;
+
+    width: 75%;
+    min-height: 60px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+}
+
+button{
+    background: linear-gradient(to right, white, purple);
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 180px;
+    height: 25px;
+
+    border-radius: 25px;
+    border: none;
+
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    background: linear-gradient( purple, white);
+    letter-spacing: 1.5px;
+    width: 185px;
+    height: 30px;
+    transition: all 0.3s ease-in-out;
+}
